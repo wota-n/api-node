@@ -25,5 +25,5 @@ if (!logo){
 }
 
 res.send({
-    tshirt: `👕 with your logo ${logo}` })
+    tshirt: `👕 with your logo ${logo} and ID ${id} ` })
 });
